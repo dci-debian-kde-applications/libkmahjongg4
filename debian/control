@@ -12,7 +12,8 @@ Uploaders: Daniel Schepler <schepler@debian.org>,
  Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
- kdelibs5-dev (>= 4:4.10)
+ kdelibs5-dev (>= 4:4.10),
+ libkdegames-dev (>= 4:4.10)
 Standards-Version: 3.9.4
 Homepage: http://games.kde.org/
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkmahjongg.git
@@ -33,19 +34,19 @@ Description: shared library for kmahjongg and kshisen
 Package: libkmahjongglib-dev
 Architecture: any
 Section: libdevel
-Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6},
- libkdegames6 (= ${binary:Version})
+Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkmahjongglib4},
+ libkmahjongglib4 (= ${binary:Version})
 Description: development files for the KDE kmahjongg library
  This package contains development files for building software that uses
  the KDE kmahjongg library.
  .
  This package is part of the KDE games module.
 
-Package: libkmahjongg4lib-dbg
+Package: libkmahjongglib4-dbg
 Architecture: any
 Priority: extra
 Section: debug
-Depends: ${misc:Depends}, libkmahjongg4 (= ${binary:Version}), kde-runtime-dbg
+Depends: ${misc:Depends}, libkmahjongglib4 (= ${binary:Version}), kde-runtime-dbg
 Description: debugging symbols for the KDE kmahjongg library
  This package contains the debugging symbols of the KDE kmahjongg library.
  .
