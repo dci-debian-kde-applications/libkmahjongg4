@@ -1,0 +1,62 @@
+Source: libkmahjongg
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+ Sune Vuorela <sune@debian.org>,
+ Fathi Boudra <fabo@debian.org>,
+ Modestas Vainius <modax@debian.org>,
+ George Kiagiadakis <gkiagiad@csd.uoc.gr>,
+ Eshat Cakar <info@eshat.de>,
+ Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+ Maximiliano Curia <maxy@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
+ cmake, debhelper (>= 9), pkg-kde-tools (>= 0.14),
+ kdelibs5-dev (>= 4:4.10)
+Standards-Version: 3.9.4
+Homepage: http://games.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkmahjongg.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkmahjongg.git
+
+Package: libkmahjongglib4
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libkdegames5
+Breaks: libkdegames5
+Description: shared library for kmahjongg and kshisen
+ This package contains a shared library used by the KDE games kmahjongg and
+ kshisen.
+ .
+ This package is part of the KDE games module.
+
+Package: libkmahjongglib-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}, ${sameVersionDep:kdelibs5-dev:libkdegames6},
+ libkdegames6 (= ${binary:Version})
+Description: development files for the KDE kmahjongg library
+ This package contains development files for building software that uses
+ the KDE kmahjongg library.
+ .
+ This package is part of the KDE games module.
+
+Package: libkmahjongg4lib-dbg
+Architecture: any
+Priority: extra
+Section: debug
+Depends: ${misc:Depends}, libkmahjongg4 (= ${binary:Version}), kde-runtime-dbg
+Description: debugging symbols for the KDE kmahjongg library
+ This package contains the debugging symbols of the KDE kmahjongg library.
+ .
+ This package is part of the KDE games module.
+
+Package: kdegames-mahjongg-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: tilesets and backgrounds for Mahjongg games
+ This package contains a collection of tilesets and backgrounds for KMahjongg,
+ KShisen and Kajongg.
+ .
+ This package is part of the KDE games module.
+

@@ -1,0 +1,7 @@
+libkmahjongg (4:4.10.2-1) UNRELEASED; urgency=low
+
+  * First release of kdegames after being split by upstream.
+  * Team upload.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Apr 2013 12:15:22 +0200
+
