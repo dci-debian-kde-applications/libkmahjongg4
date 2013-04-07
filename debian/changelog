@@ -1,3 +1,12 @@
+libkmahjongg (4:4.10.2-2) UNRELEASED; urgency=low
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * [debian/control::kdegames-mahjongg-data] Add Section: games.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Apr 2013 17:43:18 +0200
+
 libkmahjongg (4:4.10.2-1) experimental; urgency=low
 
   * First release of kdegames after being split by upstream.

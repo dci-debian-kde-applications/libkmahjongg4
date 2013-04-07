@@ -54,6 +54,7 @@ Description: debugging symbols for the KDE kmahjongg library
 
 Package: kdegames-mahjongg-data
 Architecture: all
+Section: games
 Depends: ${misc:Depends}
 Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg,
