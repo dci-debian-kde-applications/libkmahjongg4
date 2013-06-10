@@ -4,6 +4,7 @@ libkmahjongg (4:4.10.4-1) UNRELEASED; urgency=low
   * [debian/control::kdegames-mahjongg-data] Add Section: games.
   * Update libkmahjongglib4 install file.
   * Update debian/rules.
+  * Update vcs fields.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jun 2013 18:34:57 +0200
 
