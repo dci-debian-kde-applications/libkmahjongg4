@@ -1,8 +1,8 @@
-libkmahjongg (4:4.11.4-1) UNRELEASED; urgency=low
+libkmahjongg (4:4.11.5-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:06:37 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 14 Jan 2014 21:32:46 -0300
 
 libkmahjongg (4:4.11.3-1) unstable; urgency=low
 
