@@ -1,10 +1,10 @@
-libkmahjongg (4:4.12.4-1) UNRELEASED; urgency=medium
+libkmahjongg (4:4.12.4-1~) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Update copyright Upstream-Name.
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Apr 2014 09:38:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Apr 2014 17:05:58 +0200
 
 libkmahjongg (4:4.11.5-1) unstable; urgency=low
 
