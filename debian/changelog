@@ -1,3 +1,9 @@
+libkmahjongg (4:14.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 12 Dec 2014 11:44:57 -0800
+
 libkmahjongg (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   * New upstream release candidate
