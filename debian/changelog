@@ -1,15 +1,18 @@
-libkmahjongg (4:14.12.2-0ubuntu2) UNRELEASED; urgency=medium
+libkmahjongg (4:14.12.2-1~) UNRELEASED; urgency=medium
 
-  * Add back kdelibs parent depend version. 
+  * New upstream release (14.12.2).
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 20 Feb 2015 11:41:04 -0800
+  [ Scarlett Clark ]
+  * Add back kdelibs parent depend version.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 20:14:35 +0100
 
 libkmahjongg (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Remove unstable from watch file, uscan fails with 
+  * Remove unstable from watch file, uscan fails with
     remote site does not even have current version
-    
+
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:01:45 -0800
 
 libkmahjongg (4:14.12.0-0ubuntu1) vivid; urgency=medium
@@ -27,11 +30,11 @@ libkmahjongg (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 libkmahjongg (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 13:56:44 +0000
 
@@ -318,4 +321,3 @@ libkmahjongg (4:4.9.90-0ubuntu1) raring; urgency=low
     tilesets - installing these files is redundant to debian/copyright
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Dec 2012 17:39:49 +0000
-
