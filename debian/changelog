@@ -5,6 +5,9 @@ libkmahjongg (4:14.12.2-1~) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Add back kdelibs parent depend version.
 
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
  -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 20:14:35 +0100
 
 libkmahjongg (4:14.12.2-0ubuntu1) vivid; urgency=medium

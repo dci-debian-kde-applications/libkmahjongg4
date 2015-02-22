@@ -16,14 +16,13 @@ Build-Depends: cmake,
                kdelibs5-dev (>= 4:4.14),
                libkdegames-dev (>= 4:14.12.2),
                pkg-kde-tools (>= 0.14)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://games.kde.org/
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/libkmahjongg.git/
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/libkmahjongg.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/libkmahjongg.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/libkmahjongg.git
 
 Package: libkmahjongglib4
 Architecture: any
-Section: libs
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: libkdegames5
 Breaks: libkdegames5
@@ -34,8 +33,8 @@ Description: shared library for kmahjongg and kshisen
  This package is part of the KDE games module.
 
 Package: libkmahjongglib-dev
-Architecture: any
 Section: libdevel
+Architecture: any
 Depends: libkmahjongglib4 (= ${binary:Version}),
          ${misc:Depends},
          ${sameVersionDep:kdelibs5-dev:libkmahjongglib4}
@@ -58,8 +57,8 @@ Description: debugging symbols for the KDE kmahjongg library
  This package is part of the KDE games module.
 
 Package: kdegames-mahjongg-data
-Architecture: all
 Section: games
+Architecture: all
 Depends: ${misc:Depends}
 Description: tilesets and backgrounds for Mahjongg games
  This package contains a collection of tilesets and backgrounds for KMahjongg,
