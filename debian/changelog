@@ -1,4 +1,4 @@
-libkmahjongg (4:14.12.2-1~) UNRELEASED; urgency=medium
+libkmahjongg (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
 
@@ -8,7 +8,7 @@ libkmahjongg (4:14.12.2-1~) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 20:14:35 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 20:25:51 +0100
 
 libkmahjongg (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
