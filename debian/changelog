@@ -1,3 +1,10 @@
+libkmahjongg4 (4:14.12.2-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Give source a number 4 suffix to unconflict with the new source
+    that is ported to KDE Frameworks 5
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 03 Mar 2015 13:19:22 +0100
+
 libkmahjongg (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
