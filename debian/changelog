@@ -1,7 +1,11 @@
-libkmahjongg4 (4:14.12.2-1ubuntu1) UNRELEASED; urgency=medium
+libkmahjongg4 (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * Give source a number 4 suffix to unconflict with the new source
     that is ported to KDE Frameworks 5
+
+  [ Scarlett Clark ]
+  * New upsream release 
 
  -- Harald Sitter <sitter@kde.org>  Tue, 03 Mar 2015 13:19:22 +0100
 
