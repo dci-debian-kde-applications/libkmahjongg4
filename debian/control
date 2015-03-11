@@ -1,4 +1,4 @@
-Source: libkmahjongg
+Source: libkmahjongg4
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
